@@ -182,6 +182,13 @@ form button img {
     border: 2px solid #000;
     padding: 10px 30px;
  }
+
+ .container-default .container-button:hover {
+    background-color:  #454545;
+    color: #FFF;
+ }
+
+
     
 
 
@@ -200,4 +207,94 @@ form button img {
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
+}
+
+/* Section Three Reverse */
+
+.section-three.reverse .section-second-img  {
+    background-image: url('../../media/complementos/f4.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    height: 53vh;
+}
+
+.section-three.reverse .section-main-img {
+    background-image: url('../../media/complementos/f3.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+/* Section Two */
+
+.section-two {
+    display: grid;
+    background-image: url('../image/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section-two .container-default {
+    margin: 0;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    grid-row: 1 / 3;
+}
+
+.section-two .section-main-img {
+    margin: 0;
+    height: 82vh;
+    background-image: url('../../media/complementos/f5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.section-two-custom {
+    display: grid;
+    grid-template-columns: 630px 1fr;
+}
+
+.section-two-custom .section-two-custom-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #e8e9ee;
+}
+
+.section-two-custom-text .container-default{
+    max-width: 350px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+.section-two-custom-image {
+    background-image: url('../../media/complementos/bg3.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+
+.last-section{
+    background-image: url('../../media/complementos/bg4.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    padding: 80px;
+    text-align: center;
+    color: #FFF;
+    background-color: #333;
+}
+
+footer a:visited{
+    color: #FFF;
 }
